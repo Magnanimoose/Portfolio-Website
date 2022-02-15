@@ -1,0 +1,29 @@
+Find away to put NAV and Content into base.html 
+
+
+
+Urgent features to include:
+i) make dropdown happen on click: https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp 
+ii) align button with anchors in menu
+iii) add profile IMG with rounded border: https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_circle  
+iv) add linkedIn and Github icons on header
+v) Ux colour combos: https://www.designbolts.com/2015/12/24/10-best-3-color-combinations-for-logo-design-with-free-swatches/ 
+
+Done:
+Portfolio click to dropdown projects
+
+Future features to include:
+homepage
+-icon links to LinkinIn, Github
+-footer with "Powered by: Django + CSS"
+-widget: number of views of homepage
+-logo
+
+https://docs.djangoproject.com/en/dev/howto/static-files/
+Link on how to configure JS into Django 
+Further info:
+https://stackoverflow.com/questions/15491727/include-css-and-javascript-in-my-django-template 
+
+How to add icons:
+https://www.w3schools.com/icons/fontawesome_icons_directional.asp 
+

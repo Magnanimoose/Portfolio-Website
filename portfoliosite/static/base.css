@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;700&display=swap');
+
+html { /*this line was copied and pasted from Google Fonts*/
+    font-family: 'Spline Sans', sans-serif;
+}
+
+body { /* removes default margin set by browsers  */
+   /* margin: 0; */
+    background-color: whitesmoke ;
+    background: #3A3A42;
+    box-sizing: content-box;
+}
+
+.container {
+	width: 90%;
+	margin-left: 10vw;
+	background: #FDFDFD;
+	transition: 1s;
+	transform-origin: left center;
+	color: #D2D2D0;
+}
+
+.container .content {
+		padding: 100px 20%;
+}
+
+h2, h1 {
+    color: #bbb;
+    /*text-align: center*/;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+/* Button: This line styles all inputs based on having attribute button */
+input [type=button] {
+    font-family: 'Spline Sans', sans-serif;
+    line-height: 3em;
+}

@@ -1,0 +1,6 @@
+I could put nav into base.html to reduce amount of code for each webpage.
+However, I decided since my navbar is complicated and still needs tweaking 
+to leave it in "includes" to keep it easier to maintain and edit 
+
+https://codepen.io/adefful46/pen/eYOWReR
+Original code for navbar
