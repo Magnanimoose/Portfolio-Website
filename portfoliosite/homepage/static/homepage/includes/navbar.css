@@ -58,6 +58,7 @@ nav a, .dropdown_btn {
 /* formatting dropdown button  */
 .dropdown_btn {
 position: relative;
+right: 3.5%; /*aligns button with anchors!*/
 background: none;
 outline: none;
 border: none;
@@ -76,8 +77,8 @@ font-family: inherit; /*without line, Google font does not apply */
 .dropdown-content {
 	display: none;
 	position: relative;
-	right: 10%;
-	background-color: #f9d401;
+	right: 30%;
+	background-color: transparent;
 	/*color: #eee;*/
 	min-width: 300px;
 	z-index: 1; /*This line brings the box in front of other elements*/
@@ -90,7 +91,7 @@ font-family: inherit; /*without line, Google font does not apply */
 }
 
 .dropdown:hover { 
-	display: block;
+	display: inline-block;
 }
 
 .dropdown:hover .dropdown-content {
