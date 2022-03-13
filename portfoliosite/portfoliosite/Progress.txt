@@ -1,16 +1,16 @@
-Find away to put NAV and Content into base.html 
-
-
 
 Urgent features to include:
 i) make dropdown happen on click: https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp 
-ii) align button with anchors in menu
-iii) add profile IMG with rounded border: https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_circle  
-iv) add linkedIn and Github icons on header
-v) Ux colour combos: https://www.designbolts.com/2015/12/24/10-best-3-color-combinations-for-logo-design-with-free-swatches/ 
-
+ii) add profile IMG with rounded border: https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_circle  
+iii) add linkedIn and Github icons on header
+iv) Ux colour combos: https://www.designbolts.com/2015/12/24/10-best-3-color-combinations-for-logo-design-with-free-swatches/ 
+v) add default css styles to base.html
 Done:
 Portfolio click to dropdown projects
+align button with anchors in menu
+Find away to put NAV and Content into base.html 
+Add new pages by default
+
 
 Future features to include:
 homepage

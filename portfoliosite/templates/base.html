@@ -2,10 +2,11 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> <!-- head element is container for meta-data-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!--The link below provides site wide access to icons, with prefix "fa"-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    
@@ -16,14 +17,22 @@
     <!-- CSS styling always in <head> section of HTML-->
     <link rel="stylesheet" href="{% static "base.css" %}"> <!-- this line is applied globally by default-->
     {% block CSS_files %} {% endblock %}
-
 </head>
-<body>
 
-        
-{% block content %} {% endblock %}
-        
-   
+{% include "homepage/includes/navbar.html"  %} <!--This is a snippet for navbar-->
+
+<body>
+    <div class="container">
+        <div class="content">
+            {% block content %} 
+                <h1> Default intro  </h1>
+                <h1>Heading 1</h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                </p>
+            {% endblock %}
+        </div>
+    <div>
 
 </body>
 </html>
