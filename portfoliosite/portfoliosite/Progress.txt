@@ -1,9 +1,8 @@
 
 Urgent features to include:
 i) make dropdown happen on click: https://www.w3schools.com/howto/howto_js_dropdown_sidenav.asp 
-ii) add profile IMG with rounded border: https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_circle  
 iii) add icons of docker, git and django
-iv) merge branch
+
 
 
 iii) add linkedIn and Github icons on header
@@ -16,14 +15,14 @@ Portfolio click to dropdown projects
 align button with anchors in menu
 Find away to put NAV and Content into base.html 
 Add new pages by default
+First ever pull request
+add profile IMG with rounded border: https://www.w3schools.com/css/tryit.asp?filename=trycss_ex_images_circle  
 
 
 Future features to include:
 homepage
--icon links to LinkinIn, Github
--footer with "Powered by: Django + CSS"
--widget: number of views of homepage
--logo
+widget: number of views of homepage
+logo
 
 https://docs.djangoproject.com/en/dev/howto/static-files/
 Link on how to configure JS into Django 
